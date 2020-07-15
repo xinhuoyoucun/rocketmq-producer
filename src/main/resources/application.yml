@@ -1,0 +1,9 @@
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: my-group1
+    send-message-timeout: 300000
+
+demo:
+  rocketmq:
+    IMTopic: IM-topic
